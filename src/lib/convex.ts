@@ -1,4 +1,4 @@
-import { ConvexHttpClient } from "convex/browser";
+import { ConvexHttpClient } from "convex/browser"
 
 // Create a singleton instance of the Convex HTTP client
 export const getConvexClient = () => {
