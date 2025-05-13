@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Button } from "@/components/ui/button";
-import { PlusIcon, TrashIcon } from "@radix-ui/react-icons";
+import { PlusIcon } from "@radix-ui/react-icons";
 import { Id } from "../../convex/_generated/dataModel";
 import { cn } from "@/lib/utils";
 import { useNavigation } from "@/lib/context/navigation";
